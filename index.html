@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>BCA Study</title>
+ <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+ <div class="main-div">
+  <header class="navbar">
+
+  <div class="logo">
+   <h2>BCA</h2>
+  </div>
+  <div class="list">
+   <ul>
+    <li><a id="home" href="/index.html">Home</a></li>
+    <li><a href="/syllabus.html">Syllabus</a></li>
+    <li><a href="/notes.html">Notes</a></li>
+   </ul>
+  </div>
+  <div class="menu-toggle">
+  <input type="checkbox" id="toggle">
+  <label for="toggle"><i class="bi bi-list"></i></label>
+  <nav>
+    <ul>
+     
+     <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Previous QN Paper<i class=" dropicon bi bi-chevron-down"></i></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="/psem1.html">1st Sem</a>
+    <a href="/psem2.html">2nd Sem</a>
+    <a href="/psem3.html">3rd Sem</a>
+    <a href="/psem4.html">4th Sem</a>
+    <a href="/psem5.html">5th Sem</a>
+    <a href="/psem6.html">6th Sem</a>
+  </div>
+</div>
+      <li><a href="/project_idea.html">Project Ideas</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/profile.html">Sign Up</a></li>
+    </ul>
+  </nav>
+</div>
+  </header>
+  <div class="book">
+   <i class="bi bi-book-half"></i>
+   <h5>STUDY MAKES YOUR DREAMS COME TRUE</h5>
+  </div>
+  <div class="search">
+   <input type="search" placeholder="Type Somthing">
+  </div>
+  </div>
+  <article>
+   <b>BCA Degree Overview:-</b>
+   A Bachelor of Computer Application degree is the core of Computer Science in today's world. BCA is a three-year degree program. This degree is for those who want to study computer science, software engineering, information technology, information security, and networking technology.
+   <br> <br>
+   <b>BCA Course Objectives:-</b>
+The program’s objectives are to provide a solid academic basis for a career in advanced computer applications.
+
+The primary purpose of a BCA degree is to give students the information and skills required for careers in the software business, as well as computer application.
+To provide high-quality computer education to enhance logical programming and computing skills.
+To use cutting-edge teaching, learning, and evaluation methodologies and procedures.
+To promote creativity and the pursuit of perfection in computer applications.
+Create a firm foundation in computing fundamentals.
+Provide graduates with exceptional leadership, communication, and problem-solving skills.
+Teach students so that they can provide qualified solutions to real-world problems.
+  </article>
+  <footer class="copyright">
+   <div id="links">
+    
+   
+   <ol>
+    <h4>Links</h4>
+    <li><a href="https://www.ccsuniversity.ac.in/ccsum/">CCSU (Meerut)</a></li>
+    <li><a href="http://www.result4me.com/">Results</a></li>
+    <li><a href="https://www.ilovepdf.com/">PDF Editor</a></li>
+   </ol>
+   
+   <ol>
+    <h4>Coding</h4>
+    <li><a href="https://www.w3schools.com/">W3School</a></li>
+    <li><a href="https://www.javatpoint.com/">JavaTpoint</a></li>
+    <li><a href="https://www.programiz.com/c-programming/online-compiler/">Online Compiler</a></li>
+   </ol>
+   <ol>
+    <h4>Other</h4>
+    <li><a href="https://youtube.com/@ApnaCollegeOfficial?feature=shared">Apna College</a></li>
+    <li><a href="https://youtube.com/@CodeWithHarry?feature=shared">Code with Harry</a></li>
+    <li><a href="https://youtube.com/@LearnCodingOfficial?feature=shared">Learn Coding</a></li>
+   </ol>
+   </div>
+   <p>&copy 2024 BCA STUDY | All Rights Reserved | Made By AADIL </p>
+  </footer>
+ </div>
+ 
+ <script>
+  
+  function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+ </script>
+</body>
+
+</html>
